@@ -1,0 +1,4 @@
+An R package designed to work with Bayesian categorical models
+to conduct a plant vulnerability assessment. Specifically using
+the R package 'catnet' with functions to translate back and
+forth with the format used by GeNiE.
