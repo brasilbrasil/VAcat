@@ -2,3 +2,9 @@ An R package designed to work with Bayesian categorical models
 to conduct a plant vulnerability assessment. Specifically using
 the R package 'catnet' with functions to translate back and
 forth with the format used by GeNiE.
+
+The directory is formatted as an R package for local installation.
+The source code files include function descriptions formatted
+for the roxygen2 library to automatically generate manual pages
+(in the /man directory). If we're going to install this directly
+from github we'll need to run roxygenise() before uploading.

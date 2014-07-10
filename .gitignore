@@ -1,0 +1,8 @@
+# OS X Finder metadata
+.DS_Store
+# Emacs temporary files
+*~
+.#*
+\#*#
+# R auto-saved history files
+.Rhistory
