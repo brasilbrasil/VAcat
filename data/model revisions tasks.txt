@@ -1,0 +1,36 @@
+TO DO:
+-Finalize color scheme: Green: confident; Pink: uncertain
+-Move parts of disturbance into survival submodel
+-Perhaps add to niche specialization: Nitrogen fixing neighbors (ask Stephanie?)? Epiphyte, mutualism, etc
+-What other big picture factors are we missing?
+-Which other links of current threats to submodel outcomes?
+-Revise geographic model: simplify them!
+
+
+DONE:
+-Move general disturbance factors (top) to niche specialization
+-Add preferential seed predation by invasives to reproduction submodel
+-Add preferential browsing by invasive animals to survival submodel (i.e., icecream plants)
+-Switch gen lenth in order with age of first reprod.
+-Remove link between structure and migrate
+-Remove interspecific interaction, but must make caveat in assessment
+-Do not include extraction/ harvest: Not too big issue
+
+
+
+
+
+
+
+PAST RESOLVED ISSUES:
+Disturbance: What are factors related to relative drought, flood, fire, storm tolerance?
+Disturbance: How to calculate changes in drought, flood, fire, storm disturbance?
+Physical structure: agree but must be careful that all factors have clear positive/ negative link to responses
+
+Habitat specialization: What are other factors that are relevant?
+Habitat specialization: Climate zone is already redundant
+Habitat specialization: Persistence on degraded habitat/ dependence on protected habitat are nearly equivalent
+Habitat specialization: could some nodes from disturbance submodel fit here? Purpose of this submodel is to determine how specific are the conditions necessary for the species to thrive. If a species requires gaps, shaded understory o other structural, species facilitation, this is important; also epiphyte (?)
+
+Interspecific interaction submodel needs a lot of work: Is there another way to get at inter specific interactions? The way submodel is currently configured, we will likely have nothing to say about it for most species
+
