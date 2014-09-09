@@ -1,13 +1,18 @@
 TO DO:
 -Finalize color scheme: Green: confident; Pink: uncertain
 -Move parts of disturbance into survival submodel
--Perhaps add to niche specialization: Nitrogen fixing neighbors (ask Stephanie?)? Epiphyte, mutualism, etc
 -What other big picture factors are we missing?
+-Review all possible links between submodels and responses
 -Which other links of current threats to submodel outcomes?
+-Problem with demography submodel: some of the submodels impact different responses (e.g., reproduction impacts mostly migrate and evolution, not tolerate)
+ Dispersal and movement impacts migrate mostly. Is it ok that nesting hides these differences? At a minimum, should dispersal be separated from
+ demography?
 -Revise geographic model: simplify them!
+-Move C4 vs C3 to node about drought tolerance?
 
 
 DONE:
+-Perhaps add to niche specialization: Nitrogen fixing neighbors (ask Stephanie?)? Epiphyte, mutualism, etc
 -Move general disturbance factors (top) to niche specialization
 -Add preferential seed predation by invasives to reproduction submodel
 -Add preferential browsing by invasive animals to survival submodel (i.e., icecream plants)
