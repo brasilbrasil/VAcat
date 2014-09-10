@@ -9,9 +9,17 @@ TO DO:
  demography?
 -Revise geographic model: simplify them!
 -Move C4 vs C3 to node about drought tolerance?
+-Dispersal: colony survival either a child of survival, or remove it and make survival a parent of migration response
+-Remove population density from population submodel?
+-Breeding success: now only dependent on pollination success
+-Habitat specilization: interspecific dependence: is that all inclusive?
+-Historical population density (Sakai info): where else may it fit better
+-Structure: C4/CAM and phenotipic plasticity do not fit exactly in submodel
 
 
 DONE:
+-Added indigenous/endogenous to evolutionary history child
+-Current population number as child of population density
 -Perhaps add to niche specialization: Nitrogen fixing neighbors (ask Stephanie?)? Epiphyte, mutualism, etc
 -Move general disturbance factors (top) to niche specialization
 -Add preferential seed predation by invasives to reproduction submodel
