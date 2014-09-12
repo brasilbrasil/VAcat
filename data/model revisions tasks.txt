@@ -15,6 +15,8 @@ TO DO:
 -Habitat specilization: interspecific dependence: is that all inclusive?
 -Historical population density (Sakai info): where else may it fit better
 -Structure: C4/CAM and phenotipic plasticity do not fit exactly in submodel
+-Add self-pollination and dioecy as parents to "Colony survival"
+-Add current and past population density as parents to Past bottle necks
 
 
 DONE:
