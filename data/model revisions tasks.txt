@@ -1,25 +1,28 @@
 TO DO:
--Finalize color scheme: Green: confident; Pink: uncertain
--Move parts of disturbance into survival submodel
 -What other big picture factors are we missing?
 -Review all possible links between submodels and responses
 -Which other links of current threats to submodel outcomes?
--Problem with demography submodel: some of the submodels impact different responses (e.g., reproduction impacts mostly migrate and evolution, not tolerate)
- Dispersal and movement impacts migrate mostly. Is it ok that nesting hides these differences? At a minimum, should dispersal be separated from
- demography?
+-Problem with demography submodel: some of the submodels impact
+different responses (e.g., reproduction impacts mostly migrate
+and evolution, not tolerate)
+-Dispersal and movement impacts migrate mostly. Is it ok that
+nesting hides these differences? At a minimum, should dispersal
+be separated from demography?
 -Revise geographic model: simplify them!
--Move C4 vs C3 to node about drought tolerance?
--Dispersal: colony survival either a child of survival, or remove it and make survival a parent of migration response
 -Remove population density from population submodel?
 -Breeding success: now only dependent on pollination success
 -Habitat specilization: interspecific dependence: is that all inclusive?
--Historical population density (Sakai info): where else may it fit better
--Structure: C4/CAM and phenotipic plasticity do not fit exactly in submodel
--Add self-pollination and dioecy as parents to "Colony survival"
--Add current and past population density as parents to Past bottle necks
-
 
 DONE:
+-Phenotypic plasticity also made a parent of Tolerate
+-Moved historical population density to Genetic diversity, made it
+co-parents to Past Bottle Necks with Current population density
+-Colored all nodes and sub-models as Green-Yellow-Pink
+-Added self-compatible and Pre-reproductive survival as parents to "Colony survival"
+-Renamed disturbance to "Disturbance sensitvity" and made it a parent
+of Demography: Survival
+-Simplified disturbance to four parants: Drought, Flood, Storm, Fire
+-Moved C4 vs C3 to parent of drought tolerance
 -Added indigenous/endogenous to evolutionary history child
 -Current population number as child of population density
 -Perhaps add to niche specialization: Nitrogen fixing neighbors (ask Stephanie?)? Epiphyte, mutualism, etc
@@ -33,10 +36,6 @@ DONE:
 
 
 
-
-
-
-
 PAST RESOLVED ISSUES:
 Disturbance: What are factors related to relative drought, flood, fire, storm tolerance?
 Disturbance: How to calculate changes in drought, flood, fire, storm disturbance?
@@ -45,7 +44,16 @@ Physical structure: agree but must be careful that all factors have clear positi
 Habitat specialization: What are other factors that are relevant?
 Habitat specialization: Climate zone is already redundant
 Habitat specialization: Persistence on degraded habitat/ dependence on protected habitat are nearly equivalent
-Habitat specialization: could some nodes from disturbance submodel fit here? Purpose of this submodel is to determine how specific are the conditions necessary for the species to thrive. If a species requires gaps, shaded understory o other structural, species facilitation, this is important; also epiphyte (?)
+Habitat specialization: could some nodes from disturbance submodel fit
+here? Purpose of this submodel is to determine how specific are the
+conditions necessary for the species to thrive. If a species requires
+gaps, shaded understory o other structural, species facilitation, this
+is important; also epiphyte (?)
+
 
 Interspecific interaction submodel needs a lot of work: Is there another way to get at inter specific interactions? The way submodel is currently configured, we will likely have nothing to say about it for most species
+
+Dispersal: colony survival either a child of survival, or remove it
+and make survival a parent of migration response -- instead gave it
+self-compatibility as a parent
 
