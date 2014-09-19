@@ -13,7 +13,27 @@ be separated from demography?
 -Breeding success: now only dependent on pollination success
 -Habitat specilization: interspecific dependence: is that all inclusive?
 
+Model changes:
+-Add "Mixed" to pollinator type? (I think "No" -KB)
+-Ann: change/ reword colony survivals (? - KB)
+
+Dispersal and movement
+-Wind dispersal: wind-adapted shape, number of propagules and small seed/ fruit size
+-Water dispersal must be considered: buoyancy, what else? 
+-Just ask experts for which species?
+
 DONE:
+-Added intoduced animal dispersers as parent to Biotic dispersal potential
+-Dispersal vector now has 2 states (bio/ abio)
+-Removed insect dispersal agent
+-Added Ocean drift and Stream dispersal as parents to Avg. dispersal distance
+-Colored switch factors to grey (25%)
+-In survival, added a protected status node as co-parent of adult and
+pre-reproductive survival, child of protected status in the three
+response zone quality sub-models
+-Added (pink) sympatry node to genetic diversity
+-Added effective population size as child of microsatellite diversity
+-Re-colored habitat quality: Tolerance
 -Phenotypic plasticity also made a parent of Tolerate
 -Moved historical population density to Genetic diversity, made it
 co-parents to Past Bottle Necks with Current population density
