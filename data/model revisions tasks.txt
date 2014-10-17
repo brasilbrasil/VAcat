@@ -1,7 +1,13 @@
 TO DO:
+For group to give input:
 -What other big picture factors are we missing?
--Review all possible links between submodels and responses
 -Which other links of current threats to submodel outcomes?
+-Remove population density from population submodel?
+-Breeding success: now only dependent on pollination success. Is that enough??
+-Habitat specialization: interspecific dependence: is that all inclusive?
+
+For us to decide now:
+-Review all possible links between submodels and responses
 -Problem with demography submodel: some of the submodels impact
 different responses (e.g., reproduction impacts mostly migrate
 and evolution, not tolerate)
@@ -9,20 +15,13 @@ and evolution, not tolerate)
 nesting hides these differences? At a minimum, should dispersal
 be separated from demography?
 -Revise geographic model: simplify them!
--Remove population density from population submodel?
--Breeding success: now only dependent on pollination success
--Habitat specilization: interspecific dependence: is that all inclusive?
+-Water dispersal: Just ask experts for which species, instead of using complex set of factors to infer info?
 
-Model changes:
--Add "Mixed" to pollinator type? (I think "No" -KB)
--Ann: change/ reword colony survivals (? - KB)
-
-Dispersal and movement
--Wind dispersal: wind-adapted shape, number of propagules and small seed/ fruit size
--Water dispersal must be considered: buoyancy, what else? 
--Just ask experts for which species?
 
 DONE:
+-Decided not to add "Mixed" to pollinator type? (KB)
+-Wind dispersal: wind-adapted shape, number of propagules and small seed/ fruit size
+-reworded colony survivals to establishment success
 -Added intoduced animal dispersers as parent to Biotic dispersal potential
 -Dispersal vector now has 2 states (bio/ abio)
 -Removed insect dispersal agent
