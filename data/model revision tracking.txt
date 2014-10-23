@@ -1,0 +1,33 @@
+### 21 October 2014
+
+## Demography: Survival
+Removed protective status
+Removed C4 / CAM as parent to drought tolerance
+	Did *not* place it anywhere else
+Re-named Disturbance sensitivity as "Abiotic disturbance response"
+	 Identifier re-named as "Abiotic_dist_resp"
+Relative storm tolerance re-named to High wind tolerant
+	 ID: Wind_tolerant
+Relative flood tolerance re-named to Inundation tolerant
+	 ID: Inund_tolerant
+Relative drought tolerance re-named to Drought tolerant
+	 ID: Drought_tolerant
+Relative fire tolerance re-named to Fire tolerant
+	 ID: Fire_tolerant
+All four of the above states re-named to "Yes" and "No"
+Linked Age of 1st reproduction directly to "Evolve" response
+Removed link between Demography: Survival and Evolve response
+
+
+## Demography: Population numbers
+Re-named output to "Species status"
+	 Changed identifier to "Sp_status"
+Added "Assumed stable" as intermediate value to Current pop trend
+Colored Current pop trend green
+Added "Widespread" as new level for Number of populations
+      Note: Define widespread species based on number of island it is
+      historically known to occur (most islands). or use biogeographic
+      regions
+
+### To do:
+Generalize "pollination" language to apply to fern spore propagation?
