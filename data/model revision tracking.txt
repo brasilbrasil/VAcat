@@ -29,5 +29,40 @@ Added "Widespread" as new level for Number of populations
       historically known to occur (most islands). or use biogeographic
       regions
 
+### 4 November 2014
+
+## Demography: Reproduction
+Re-named Breeding system (mono- di- ecious, etc) to "Breeding system"
+	 ID: Breeding_system
+	 Re-named "Monoecious" state to "Monoecious_Hermaphroditic"
+	 Removed "Mixed" state
+Removed "Self Compatible" node, linking Breeding system directly
+	to Pollination success
+Re-named Biotic pollinator to "Biotic pollinator effect"
+	 ID: Biotic_pollinator_effect
+	 Re-named states to "Favorable" and "Unfavorable"
+"Ancestral pollinator" states changed to "Same" and "Different"
+
+## Demography: Dispersal
+"Dispersal agent" states changed to "Effective" and "Noneffective"
+Removed node "Stream dispersal"
+Removed node "Human facilitated dispersal"
+Ancestral dispersal values changed to "Same" or "Different"
+	  Removed third value
+	  Re-colored from pink to yellow
+
+## Management capacity
+Re-named "Controversial/ conflictive management" to "Management
+	 synergy"
+	 ID: Management_synergy
+	 New states: "Positive", "Neutral", "Negative"
+Corrected spelling of node "Available area for assisted migration"
+	  ID: Available_areas_for_assisted_migration
+Removed "Charismatic species"
+
+
+
+
+
 ### To do:
 Generalize "pollination" language to apply to fern spore propagation?
