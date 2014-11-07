@@ -51,6 +51,43 @@ Ancestral dispersal values changed to "Same" or "Different"
 	  Removed third value
 	  Re-colored from pink to yellow
 
+### 6 November 2014
+Demography: Reproduction
+	Breeding success re-named to "Sexual reproduction"
+		ID: Sexual_reproduction
+	Removed Fecundity
+	Moved Number of Propagules from Dispersal and movement to Reproduction
+	Added "Seeds per plant" as parent to Number of propagules
+		ID: Seeds_per_plant
+		Values: "Many", "Few"
+	Added "Reproduction events per year" as parent to Number of propagules
+		ID: Reproduction_per_year
+		Values: "Many", "Few"
+	Re-colored "Ancestral pollinator" to red
+
+Dispersal and movement
+	Re-named "Ocean drift" to "Observed ocean drift"
+	Added "Epiphyte" node as parent to "Plant height"
+		ID: Epiphyte
+		Values: "Yes", "No"
+	Re-colored "Ancestral dispersal vector" to red
+
+Management capacity
+	Re-named "Knowledge of limiting factors" re-named to "Knowledge of current limiting factors"
+	Added node between above and Management capacity "Limiting factors actionable"
+		ID: Limiting_factors_actionable
+		Values: "Yes", "No"
+	Removed: "Cultural Significance", "Harmful species", "Public goodwill for species"
+	Removed: "Assisted migration possible?", "Available area for assisted migration"
+	Removed: "Facilitated adaptation possible?"
+
+		
+		
+
+
+		
+
+
 ## Management capacity
 Re-named "Controversial/ conflictive management" to "Management
 	 synergy"
