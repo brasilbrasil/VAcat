@@ -51,6 +51,16 @@ Ancestral dispersal values changed to "Same" or "Different"
 	  Removed third value
 	  Re-colored from pink to yellow
 
+## Management capacity
+Re-named "Controversial/ conflictive management" to "Management
+	 synergy"
+	 ID: Management_synergy
+	 New states: "Positive", "Neutral", "Negative"
+Corrected spelling of node "Available area for assisted migration"
+	  ID: Available_areas_for_assisted_migration
+Removed "Charismatic species"
+
+
 ### 6 November 2014
 Demography: Reproduction
 	Breeding success re-named to "Sexual reproduction"
@@ -81,24 +91,50 @@ Management capacity
 	Removed: "Assisted migration possible?", "Available area for assisted migration"
 	Removed: "Facilitated adaptation possible?"
 
-		
-		
+
+### 13 November 2014
+Demography: Dispersal and movement
+    Removed "Wind-adapted seed shape"
+    Re-named "Biotic dispersal potential" to "Biotic dispersers
+    available"
+	ID: Biotic_dispersers_available
+	Values: "Yes", "No"
+
+Genetic Diversity
+    Removed "Past bottle necks"
+    Removed "Historical population density"
+    Removed "Current population density"
+    Made "Evolutionary history" parent to only "Effective population
+    size"
+    Deleted "Microsattelite variation"
+    Colored "Effective population size" green
+    Genetic diversity levels now "Higher" and "Lower"
+    Removed "Dispersal_agent"
+    Removed "Introduced animal dispersers"
 
 
-		
-
-
-## Management capacity
-Re-named "Controversial/ conflictive management" to "Management
-	 synergy"
-	 ID: Management_synergy
-	 New states: "Positive", "Neutral", "Negative"
-Corrected spelling of node "Available area for assisted migration"
-	  ID: Available_areas_for_assisted_migration
-Removed "Charismatic species"
-
-
-
+### 20 November 2014
+Niche specialization
+      Re-named "Vegetation zones" to "Habitat types available"
+      	       ID: Habitat_type_available
+      Re-named "Important abiotic non-climatic distribution
+      constraints?" to "Specific edaphic / topgraphic conditions"
+      		    ID: Specific_edap_topo
+      Deleted "Habitat type"
+      Interspecific dependence
+           Re-colored to green
+           Made parent of Habitat specialization
+           Values: "None", "Wide", "Narrow"
+      Deleted node "Dependence on other plant species"
+      Deleted "Dependence on structural complexity"
+      Re-named "Persistance in degraded habitats" to "Persistence in
+      degraded habitats"
+      	       Re-colored to green
+	       ID: Persistence_in_degraded_habitats
+      Deleted "Dependence on a specific disturbance regime"
+      Re-named "Habitat specialization" as "Niche specialization"
+      	       ID: Niche_specialization
+      	       Values: "Low", "High"
 
 
 ### To do:
