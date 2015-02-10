@@ -137,5 +137,23 @@ Niche specialization
       	       Values: "Low", "High"
 
 
+### 30 January 2015
+Demography: Survival
+	    Removed node "Wind tolerant"
+Dispersal and movement
+      Removed "Ancestral dispersal vector"
+Demography: Reproduction
+	    Made "Number of propagules" parent of "Sexual
+	    reproduction"
+	    Added node "Germination micro-environment" as parent of
+	    "Sexual reproduction"
+	    	    ID: Germination_micro_environment
+		    Values: "Common", "Uncommon"
+	Made "Current population size" a parent of "Sexual reproduction"
+Demography: Population numbers
+	    Removed value "Widespread" from "Number of populations"
+	    	    # Need to define Few and Many
+
+
 ### To do:
 Generalize "pollination" language to apply to fern spore propagation?
