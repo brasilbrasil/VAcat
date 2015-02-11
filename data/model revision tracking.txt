@@ -139,12 +139,15 @@ Niche specialization
 
 ### 30 January 2015
 Demography: Survival
-	    Removed node "Wind tolerant"
+	    Removed node "Wind tolerant" (likely not that important, no info)
 Dispersal and movement
       Removed "Ancestral dispersal vector"
+      included wind adapted as state for fruit type
 Demography: Reproduction
 	    Made "Number of propagules" parent of "Sexual
 	    reproduction"
+            Removed ancestral pollination
+            removed CC impact (lack of data, lack of knowledge of pollinator)
 	    Added node "Germination micro-environment" as parent of
 	    "Sexual reproduction"
 	    	    ID: Germination_micro_environment
