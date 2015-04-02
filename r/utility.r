@@ -72,3 +72,15 @@ ncat <- function(noisy, trigger=0, ...) {
   if (noisy > trigger)
     cat(..., sep="")
 }
+
+
+#' Greatest common denominator
+#'
+#' Find the greatest common denominator of two integers
+#' @param x the first integer. Must be the larger of the two.
+#' @param y the second integer.
+#' @export
+gcd <- function(x, y) {
+    r <- x %% y
+    return(ifelse(r, gcd(y, r), y))
+}

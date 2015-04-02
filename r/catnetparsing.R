@@ -170,6 +170,9 @@ conditionalP <- function(m, n, d=NULL) {
 #' @param n a node name
 #' @param d a single row dataframe with column names for nodes in
 #'     the model and fixed values for the state of each node
+#' @return a dataframe with rows for all possible combinations of
+#' the node's parents and marginal probabilities of node values
+#' for each combination.
 #' @export
 getPtable <- function(m, n, d=NULL) {
     require(catnet)

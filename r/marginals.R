@@ -34,7 +34,7 @@ margin.loglik <- function(d, nname, data) {
     output$loglik <- as.numeric(NA)
     ## iterate over all combinations
     for (i in 1:nrow(newmarge)) {
-        ## nead to clean some attributes from this vector so
+        ## need to clean some attributes from this vector so
         ## cnNodeLoglike doesn't complain
         p <- NULL
         for (j in 1:ncol(newmarge)) {
@@ -51,16 +51,23 @@ margin.loglik <- function(d, nname, data) {
 #' Set the marginal probabilities of a node in the model by adjusting
 #' the underlying conditional probabilities in the catNetwork object.
 #' @param d a \code{\link{catNetwork}} model object
-#' @param n the number of the node to modify
+#' @param n the number of the node to modify OR the name of the node.
 #' @param p the desired new marginal probabilities. It must be a numeric
 #' vector with values between 0 and 1, summing to 1, with as many elements
 #' as there are category levels of node n.
-#' @return a \code{\link{catNetwork}} model object identical to d, except the marginal
-#' probabilities of node n have been altered.
+#' @return a \code{\link{catNetwork}} model object identical to d, except
+#' the marginal probabilities of node n have been altered.
 #' @export
 fix.marginals <- function(d, n, p) {
     if (sum(p) != 1)
         stop("Desired marginal probabilities must sum to 1.")
+    if (is.character(n)) {
+        n.num <- d@nodes[which(d@nodes == n)]
+        if (is.null(n.num))
+            stop("Node ", n, " not found in the model.")
+        else
+            n <- n.num
+    }
     current <- cnNodeMarginalProb(d, n)
     if (length(current) != length(p))
         stop("Mismatch in desired probabilty and actual number of nodes.")

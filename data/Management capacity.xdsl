@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<smile version="1.0" id="SpeciesVA" numsamples="1000" discsamples="10000">
+	<nodes>
+		<cpt id="Management_synergy">
+			<state id="Positive" />
+			<state id="Neutral" />
+			<state id="Negative" />
+			<probabilities>0.5 0.5 0</probabilities>
+		</cpt>
+		<cpt id="Knowledge_of_limiting_factors">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="USFWS_status">
+			<state id="Listed" />
+			<state id="Not_listed" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="IUCN_ranking">
+			<state id="Listed" />
+			<state id="Not_listed" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Species_special_status">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>USFWS_status IUCN_ranking</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Limiting_factors_actionable">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Knowledge_of_limiting_factors</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Management_capacity">
+			<state id="Favorable" />
+			<state id="Unfavorable" />
+			<parents>Management_synergy Species_special_status Limiting_factors_actionable Knowledge_of_limiting_factors</parents>
+			<probabilities>0.875 0.125 0.875 0.125 0.875 0.125 0.875 0.125 0.6875 0.3125 0.6875 0.3125 0.6875 0.3125 0.6875 0.3125 1 0 1 0 1 0 1 0 0.8125 0.1875 0.8125 0.1875 0.8125 0.1875 0.8125 0.1875 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+	</nodes>
+	<cases>
+		<case name="landscape evidence">
+		</case>
+	</cases>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.0.5406.0" name="SpeciesVA" faultnameformat="nodestate" arcwidth="2">
+			<node id="Management_capacity">
+				<name>Management capacity</name>
+				<interior color="ffffff" />
+				<outline color="000000" width="2" />
+				<font color="000000" name="Arial" size="10" />
+				<position>517 176 602 229</position>
+				<barchart active="true" width="148" height="77" />
+			</node>
+			<node id="Species_special_status">
+				<name>Species under special status / protection</name>
+				<interior color="99cc00" />
+				<outline color="000000" width="2" />
+				<font color="000000" name="Arial" size="10" />
+				<position>264 183 342 231</position>
+				<barchart active="true" width="160" height="76" />
+			</node>
+			<node id="USFWS_status">
+				<name>USFWS status</name>
+				<interior color="99cc00" />
+				<outline color="000000" width="2" />
+				<font color="000000" name="Arial" size="10" />
+				<position>70 142 131 180</position>
+				<barchart active="true" width="128" height="68" />
+			</node>
+			<node id="IUCN_ranking">
+				<name>IUCN ranking</name>
+				<interior color="99cc00" />
+				<outline color="000000" width="2" />
+				<font color="000000" name="Arial" size="10" />
+				<position>72 227 129 262</position>
+				<barchart active="true" width="128" height="68" />
+			</node>
+			<node id="Management_synergy">
+				<name>Management synergy</name>
+				<interior color="99cc00" />
+				<outline color="000000" width="2" />
+				<font color="000000" name="Arial" size="10" />
+				<position>527 50 588 96</position>
+				<barchart active="true" width="160" height="80" />
+			</node>
+			<node id="Knowledge_of_limiting_factors">
+				<name>Knowledge of current limiting factors</name>
+				<interior color="99cc00" />
+				<outline color="000000" width="2" />
+				<font color="000000" name="Arial" size="10" />
+				<position>320 346 388 382</position>
+				<barchart active="true" width="160" height="76" />
+			</node>
+			<node id="Limiting_factors_actionable">
+				<name>Limiting factors actionable</name>
+				<interior color="99cc00" />
+				<outline color="000000" width="2" />
+				<font color="000000" name="Arial" size="10" />
+				<position>527 341 595 377</position>
+				<barchart active="true" width="160" height="76" />
+			</node>
+			<arcformat parent="USFWS_status" child="Species_special_status" width="2" color="a0a0a0" />
+			<arcformat parent="IUCN_ranking" child="Species_special_status" width="2" color="a0a0a0" />
+			<arcformat parent="Management_synergy" child="Management_capacity" width="2" color="000000" />
+			<arcformat parent="Species_special_status" child="Management_capacity" width="2" color="000000" />
+		</genie>
+	</extensions>
+</smile>
