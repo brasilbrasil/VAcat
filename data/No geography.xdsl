@@ -520,7 +520,7 @@
 				<outline color="000000" width="2" />
 				<font color="000000" name="Arial" size="14" />
 				<position>752 621 879 686</position>
-				<window>239 110 1266 747</window>
+				<window>239 110 961 621</window>
 				<node id="Management_capacity">
 					<name>Management capacity</name>
 					<interior color="ffffff" />
@@ -583,8 +583,8 @@
 				<interior color="ffff99" />
 				<outline color="000000" width="2" />
 				<font color="000000" name="Arial" size="14" />
-				<position>249 625 345 686</position>
-				<window>856 49 1579 905</window>
+				<position>241 627 337 688</position>
+				<window>856 49 1501 668</window>
 				<node id="Lineage_size">
 					<name>Lineage size</name>
 					<interior color="99cc00" />
@@ -648,7 +648,7 @@
 				<outline color="000000" width="2" />
 				<font color="000000" name="Arial" size="14" />
 				<position>297 106 412 177</position>
-				<window>-8 -30 1732 881</window>
+				<window>104 75 772 616</window>
 				<node id="Phenotypic_plasticity">
 					<name>Phenotypic plasticity</name>
 					<interior color="ffffff" />
@@ -735,7 +735,7 @@
 				<outline color="000000" width="2" />
 				<font color="000000" name="Arial" size="14" />
 				<position>59 517 193 579</position>
-				<window>1282 -15 2270 597</window>
+				<window>127 60 1043 563</window>
 				<node id="Niche_specialization">
 					<name>Niche specialization</name>
 					<interior color="ffffff" />
@@ -830,14 +830,14 @@
 				<interior color="ffff99" />
 				<outline color="000000" width="2" />
 				<font color="000000" name="Arial" size="14" />
-				<position>222 363 356 428</position>
-				<window>252 71 1608 860</window>
+				<position>222 364 356 429</position>
+				<window>252 71 1084 816</window>
 				<node id="Reproduction">
 					<name>Demography: Reproduction</name>
 					<interior color="ffffff" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>514 655 608 702</position>
+					<position>296 627 390 674</position>
 					<barchart active="true" width="185" height="70" />
 				</node>
 				<node id="Vegetative">
@@ -845,7 +845,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>330 480 389 521</position>
+					<position>112 452 171 493</position>
 					<barchart active="true" width="128" height="77" />
 				</node>
 				<node id="Flower_long_short">
@@ -853,7 +853,7 @@
 					<interior color="ff99cc" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>453 69 511 111</position>
+					<position>235 41 293 83</position>
 					<barchart active="true" width="128" height="62" />
 				</node>
 				<node id="Presumed_pollinator">
@@ -861,7 +861,7 @@
 					<interior color="c0c0c0" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>449 204 512 246</position>
+					<position>235 190 298 232</position>
 					<barchart active="true" width="128" height="78" />
 				</node>
 				<node id="Flower_color">
@@ -869,7 +869,7 @@
 					<interior color="ff99cc" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>307 65 361 98</position>
+					<position>89 37 143 70</position>
 					<barchart active="true" width="128" height="80" />
 				</node>
 				<node id="Breeding_system">
@@ -877,7 +877,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>710 189 788 230</position>
+					<position>492 161 570 202</position>
 					<barchart active="true" width="330" height="80" />
 				</node>
 				<node id="Flower_size">
@@ -885,7 +885,7 @@
 					<interior color="ff99cc" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>610 74 660 105</position>
+					<position>392 46 442 77</position>
 					<barchart active="true" width="128" height="64" />
 				</node>
 				<node id="Pollinator_efficacy">
@@ -893,7 +893,7 @@
 					<interior color="ffff99" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>278 242 358 292</position>
+					<position>46 208 126 258</position>
 					<barchart active="true" width="157" height="80" />
 				</node>
 				<node id="Pollination_limited">
@@ -901,7 +901,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>525 367 599 413</position>
+					<position>307 339 381 385</position>
 					<barchart active="true" width="148" height="64" />
 				</node>
 				<node id="Sexual_reproduction">
@@ -909,7 +909,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>529 486 599 529</position>
+					<position>311 458 381 501</position>
 					<barchart active="true" width="154" height="64" />
 				</node>
 				<node id="Number_propagules">
@@ -917,7 +917,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>742 412 814 451</position>
+					<position>514 399 586 438</position>
 					<barchart active="true" width="128" height="77" />
 				</node>
 				<node id="Seeds_per_plant">
@@ -925,7 +925,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>899 340 971 379</position>
+					<position>694 336 766 375</position>
 					<barchart active="true" width="128" height="77" />
 				</node>
 				<node id="Reproductiion_per_year">
@@ -933,7 +933,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>899 460 971 499</position>
+					<position>694 456 766 495</position>
 					<barchart active="true" width="128" height="77" />
 				</node>
 				<node id="Germination_micro_environment">
@@ -941,15 +941,15 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>751 557 823 596</position>
+					<position>531 526 603 565</position>
 					<barchart active="true" width="163" height="77" />
 				</node>
 				<node id="Fern">
 					<name>Fern</name>
-					<interior color="99cc00" />
+					<interior color="c0c0c0" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>324 374 396 413</position>
+					<position>106 346 178 385</position>
 					<barchart active="true" width="128" height="77" />
 				</node>
 				<node id="Self_pollinates">
@@ -957,7 +957,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>724 300 796 339</position>
+					<position>514 273 586 312</position>
 					<barchart active="true" width="128" height="77" />
 				</node>
 			</submodel>
@@ -1135,7 +1135,7 @@
 				<outline color="000000" width="2" />
 				<font color="000000" name="Arial" size="14" />
 				<position>38 227 170 288</position>
-				<window>538 172 1700 872</window>
+				<window>538 172 1470 830</window>
 				<node id="Survival">
 					<name>Demography: Survival</name>
 					<interior color="ffffff" />
@@ -1157,7 +1157,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>82 215 145 252</position>
+					<position>74 215 137 252</position>
 					<barchart active="true" width="144" height="70" />
 				</node>
 				<node id="Adult_survival">
@@ -1173,7 +1173,7 @@
 					<interior color="ffff99" />
 					<outline color="000080" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>604 43 666 91</position>
+					<position>602 36 664 84</position>
 					<barchart active="true" width="148" height="78" />
 				</node>
 				<node id="Projected_comparative_impact_on_predators">
@@ -1181,7 +1181,7 @@
 					<interior color="ffff99" />
 					<outline color="000080" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>599 162 667 213</position>
+					<position>614 162 682 213</position>
 					<barchart active="true" width="139" height="78" />
 				</node>
 				<node id="Preferential_seed_predation_by_invasives">
@@ -1189,7 +1189,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>240 137 303 174</position>
+					<position>246 154 309 191</position>
 					<barchart active="true" width="144" height="94" />
 				</node>
 				<node id="Preferential_browsing_by_invasives">
@@ -1197,7 +1197,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>410 138 473 175</position>
+					<position>416 155 479 192</position>
 					<barchart active="true" width="144" height="92" />
 				</node>
 				<node id="Abiotic_dist_resp">
@@ -1213,7 +1213,7 @@
 					<interior color="ffff99" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>779 287 852 330</position>
+					<position>766 352 839 395</position>
 					<barchart active="true" width="137" height="79" />
 				</node>
 				<node id="Inund_tolerant">
@@ -1221,7 +1221,7 @@
 					<interior color="ffff99" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>782 404 849 445</position>
+					<position>769 448 836 489</position>
 					<barchart active="true" width="137" height="77" />
 				</node>
 				<node id="Fire_tolerant">
@@ -1229,7 +1229,7 @@
 					<interior color="ffff99" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>779 516 849 555</position>
+					<position>767 544 837 583</position>
 					<barchart active="true" width="137" height="77" />
 				</node>
 				<node id="Woody_herbaceous">
@@ -1245,7 +1245,7 @@
 					<interior color="ff99cc" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>66 26 139 73</position>
+					<position>69 26 142 73</position>
 					<barchart active="true" width="154" height="86" />
 				</node>
 				<node id="Plant_size">
@@ -1253,7 +1253,7 @@
 					<interior color="99cc00" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>603 268 653 299</position>
+					<position>618 268 668 299</position>
 					<barchart active="true" width="128" height="64" />
 				</node>
 				<node id="Habit">
@@ -1261,7 +1261,7 @@
 					<interior color="ff99cc" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
-					<position>790 165 840 196</position>
+					<position>773 237 823 268</position>
 					<barchart active="true" width="128" height="120" />
 				</node>
 			</submodel>

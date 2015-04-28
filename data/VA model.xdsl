@@ -1492,7 +1492,7 @@
 				</node>
 				<node id="Fern">
 					<name>Fern</name>
-					<interior color="99cc00" />
+					<interior color="c0c0c0" />
 					<outline color="000000" width="2" />
 					<font color="000000" name="Arial" size="10" />
 					<position>324 374 396 413</position>

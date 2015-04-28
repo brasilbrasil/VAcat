@@ -221,3 +221,59 @@ getPtable <- function(m, n, d=NULL) {
     }
     return(bar)
 }
+
+#' Get all parents of a node in a network
+#'
+#' @param N a \code{\link{catNetwork}} model object
+#' @param node the name of a node in the network
+#' @return a character vector naming all the nodes in the model that
+#' are "upstream" of the node.
+#' @export
+node.parents <- function(N, node) {
+    plist <- NULL
+    foo <- cnParents(N, node)
+    if (length(foo) == 0) {
+        return(NULL)
+    } else {
+        foo <- unlist(foo)
+        plist <- c(plist, foo)
+        for (i in foo) {
+            plist <- c(plist, node.parents(N, i))
+        }
+        return(unique(plist))
+    }
+}
+#' Get all children of a node in a network
+#'
+#' @param N a \code{\link{catNetwork}} model object
+#' @param node the name of a node in the network
+#' @return a character vector naming all the nodes in the model that
+#' are "downstream" of the node.
+#' @export
+node.children <- function(N, node) {
+    plist <- NULL
+    foo <- cnEdges(N, node)
+    if (length(foo) == 0) {
+        return(NULL)
+    } else {
+        foo <- unlist(foo)
+        plist <- c(plist, foo)
+        for (i in foo) {
+            plist <- c(plist, node.children(N, i))
+        }
+        return(unique(plist))
+    }
+}
+#' Get all nodes in between two nodes in a network
+#'
+#' @param N a \code{\link{catNetwork}} model object
+#' @param child the name of a node in the network
+#' @param parent the name of a node in the network
+#' @return a character vector naming all the nodes in the model that
+#' are between child and parent
+#' @note parent must be upstream of child in the DAG
+#' @export
+nodes.between <- function(N, child, parent) {
+    foo <- intersect(node.parents(N, child), node.children(N, parent))
+    return(setdiff(foo, c(child, parent)))
+}
